@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>“后代”选择符示例</title>
+<style type="text/css">
+	p span{
+		color:red;  /*定义段落中span标签文字颜色为红色*/
+	}
+	span{
+		color: blue; /*定义普通span标签文字颜色为蓝色*/
+	}
+</style>
+</head>
+<body>
+<p>嵌套使用<span>CSS标签</span>的方法</span></p>
+嵌套之外的<span>标签</span>不生效
+</body>
+</html>
