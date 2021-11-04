@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy4-1</title>
+<style type="text/css">
+	.box{
+		width:585px;
+		height:600px;
+		background-color:gray;   /*设置背景颜色为灰色*/
+		border:2px solid black;  /*设置2px黑色实线边框*/
+		margin:5px;
+		padding:5px;
+		font-family:Arial;
+		font-weight:bold;
+	}
+	#header{
+		width:560px;
+		height:135px;
+		background-color:red;
+		border:2px solid yellow;  /*设置2px黄色实线边框*/
+		margin:15px 5px 20px 5px;
+		padding-top:5px;
+		padding-left:10px;
+		padding-bottom: 10px;
+		color:yellow;
+	}
+	#logo{
+		width:150px;
+		height:40px;
+		background-color:yellow;
+		border:2px solid black;
+		color:black;
+		line-height: 40px;
+		padding-left: 20px;
+		margin:10px 25px 10px 10px;
+		float:left;
+	}
+	#banner{
+		float: left;
+		background-color:blue;
+		width:280px;
+		height: 40px;
+		border:2px solid black;
+		color:white;
+		line-height: 40px;
+		padding-left:15px;
+		padding-right: 10px;
+		margin:10px 10px 15px 25px;
+	}
+	#menu{
+		clear:both;
+		background-color:darkolivegreen;
+		width:510px;
+		height:40px;
+		border:2px solid black;
+		color:white;
+		line-height: 40px;
+		padding-left:15px;
+		padding-right:5px;
+		margin:20px 10px 15px 10px;
+	}
+	#main{
+		width:550px;
+		height:300px;
+		background-color:green;
+		margin:15px 5px 30px 5px;
+		padding:5px 5px 0px 15px;
+		color:white;
+		border:2px solid yellow;
+		clear:left;
+	}
+	#sidebar{
+		width:190px;
+		height:230px;
+		background-color:blue;
+		border:2px solid white;
+		padding:10px 0px 0px 10px;
+		float: left;
+		margin: 15px 25px 20px 0px;
+	}
+	#content{
+		float:left;
+		width:270px;
+		height:230px;
+		background-color:aqua;
+		border:2px solid white;
+		padding:10px 0px 0px 10px;
+		margin:15px 0px 20px 25px;
+	}
+	#footer{
+		width:550px;
+		height:30px;
+		background-color:red;
+		border:2px solid yellow;
+		padding:10px 1px 0px 20px;
+		margin:25px 0px 0px 5px;
+	}
+</style>
+</head>
+
+<body>
+	<div class="box">
+		div->box包含下面三部分结构div（header,main,footer），布局网页宽度和居中
+		<div id="header">
+			div->header包含下面三个结构div，布局头部高度和主要背景
+			<div id="logo">div->id=logo</div>
+			<div id="banner">div->id=banner</div>
+			<div id="menu">div->id=menu</div>
+		</div>
+		<div id="main">
+			div->id=main包含下面2个div(sidebar,content)
+			<div id="sidebar">div->id=sidebar</div>
+			<div id="content">div->id=content</div>
+		</div>
+		<div id="footer">div->id=footer</div>
+	</div>
+</body>
+</html>
