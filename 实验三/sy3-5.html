@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>sy3-5</title>
+<style type="text/css">
+	.login{         /*登录框容器的样式*/
+		margin:0 auto;  /*容器水平居中对齐*/
+		width:280px;
+		padding:14px;
+		border:2px dashed #b7ddf2;   /*2px虚线淡蓝色边框*/
+		background:#ebf4fb;
+	}
+	.login *{        /*容器中所有元素的样式*/
+		margin:0px;
+		padding:0px;
+		font-family:"宋体";
+		font-size:12px;
+		line-height:1.5em;
+	}
+	.login h2{       /*容器中2级标题的样式*/
+		text-align:center;    /*文字水平居中对齐*/
+		font-size:18px;
+		font-weight:bold;      /*字体加粗*/
+		margin-bottom:10px;
+		padding-bottom:5px;
+		border-bottom:1px solid #b7ddf2;  /*下边框为1px实线淡蓝色边框*/
+	}
+	.content{    /*容器内容区域的样式*/
+		padding:5px;
+	}
+	.frm_cont{   /*内容区域中提示文字的样式*/
+		margin-bottom:8px;
+		font-weight: bold;
+	}
+	.username input,.password input{    /*用户名文本域和密码域的样式*/
+		width:180px;
+		height:18px;
+		padding:2px 0px 2px 18px;    /*文本框左内边距18px以便背景图像预留显示空间*/
+		border:1px solid #aacfe4;    /*1px实线淡蓝色边框*/
+	}
+	.login .username input{           /*用户名文本域背景图像*/
+		background:#fff url("图片四.png") no-repeat left center;
+		background-size: 18px;
+	}
+	.login .password input{
+		background:#fff url("图片五.png") no-repeat left center;
+		background-size: 18px;
+	}
+	.btns{        /*按钮的样式*/
+		text-align: center;   /*文字水平居中对齐*/
+	}
+</style>
+</head>
+
+<body>
+	<div class="login">
+		<h2>用户登录</h2>
+		<div class="content">
+		<form action="" method="post">
+			<div class="frm_cont username">
+				用户名：
+				<input type="text" name="username" id="uesrname"/>
+			</div>
+			<div class="frm_cont password">
+				密&nbsp;码：<label for="password"></label>
+				<input type="password" name="password" id="password"/>
+			</div>
+			<div class="btns">
+				<input type="submit" name="button1" id="button1" value="登录"/>
+				<input type="button" name="button2" id="button2" value="注册"/>
+			</div>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
