@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy-7-2</title>
+<script type="text/javascript">
+	function change1(){
+		document.getElementById("imgchange").src="图片2.png"
+	}
+	function change2(){
+		document.getElementById("imgchange").src="图片1.png"
+	}
+</script>
+</head>
+
+<body>
+	<form>
+	<input type="button" name="开灯" value="开灯" onclick="change1()"/>
+	<img src="图片1.png"  id="imgchange"/>
+	<input type="button" name="关灯" value="关灯" onclick="change2()"/>
+	</form>
+</body>
+</html>
